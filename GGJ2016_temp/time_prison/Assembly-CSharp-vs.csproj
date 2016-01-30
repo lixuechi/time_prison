@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MouseControl.cs" />
+     <Compile Include="Assets\Omni.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/xuechili/GitHub/time_prison/GGJ2016_temp/time_prison/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
