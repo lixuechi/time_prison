@@ -48,6 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\MouseControl.cs" />
      <Compile Include="Assets\Omni.cs" />
+     <Compile Include="Assets\TPbuttonControl.cs" />
+     <Compile Include="Assets\TPmouseControl.cs" />
+     <Compile Include="Assets\TPomni.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
