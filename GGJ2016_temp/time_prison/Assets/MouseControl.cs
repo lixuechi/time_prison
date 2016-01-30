@@ -1,10 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class MouseControl : Omni {
 
+	//<test>
 	public GameObject particle;
 	GameObject instantiatedParticle;
+	//</test>
+
+	public Image colorPaletteButton;
+	public MeshRenderer colorToMR;
+	public MeshRenderer yellowFromMR;
 
 	void Start () {
 	
@@ -19,8 +28,30 @@ public class MouseControl : Omni {
 			if (Physics.Raycast (ray, out hit, 100)) 
 			{
 				Debug.Log ("hit sth");
-				Debug.Log (hit.collider.gameObject.tag);
-			}
+				string colliderTag = hit.collider.gameObject.tag;
+				Debug.Log (colliderTag);
+
+				if(colliderTag.Equals("yellowFrom"))
+				{
+					// color the palette button
+					o_colorOfPalette = COLOR_1_int;
+
+					Color newColor = new Color(0, 0, 0); 
+					colorPaletteButton.color = newColor;
+
+					//Color newColor = COLOR_1_Color; 
+					//colorPaletteButton.color = newColor;
+				}
+				else if(colliderTag.Equals("colorTo"))
+				{
+					// color the colorFrom object from palette
+					if(o_colorOfPalette == COLOR_1_int)
+					{
+						Debug.Log("draw tint to colorTo obj");
+						colorToMR.materials = yellowFromMR.materials;
+					}
+				}
+			} // end Raycast
 
 		} // end getButton Fire1 down
 
