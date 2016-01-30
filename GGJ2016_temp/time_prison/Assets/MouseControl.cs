@@ -48,6 +48,10 @@ public class MouseControl : Omni {
 						colorToMR.materials = yellowFromMR.materials;
 					}
 				}
+				else if(colliderTag.Equals("symbol"))
+				{
+					// pick up the symbol
+				}
 			} // end Raycast
 
 		} // end getButton Fire1 down
