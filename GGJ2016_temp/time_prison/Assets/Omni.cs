@@ -11,7 +11,7 @@ public class Omni : MonoBehaviour {
 	public static int o_colorOfPalette = -1;
 	public const int COLOR_1_int = 0; // yellow
 	public const int COLOR_2_int = 1;
-	public Color COLOR_1_Color = new Color(252, 255, 32); 
+	public Color COLOR_1_Color = new Color(252/255f, 1, 32/255f); 
 
 	//</color>
 

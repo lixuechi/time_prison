@@ -36,11 +36,8 @@ public class MouseControl : Omni {
 					// color the palette button
 					o_colorOfPalette = COLOR_1_int;
 
-					Color newColor = new Color(0, 0, 0); 
+					Color newColor = new Color(252/255f, 1, 32/255f);
 					colorPaletteButton.color = newColor;
-
-					//Color newColor = COLOR_1_Color; 
-					//colorPaletteButton.color = newColor;
 				}
 				else if(colliderTag.Equals("colorTo"))
 				{
