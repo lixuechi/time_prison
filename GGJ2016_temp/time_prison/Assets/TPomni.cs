@@ -1,5 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class TPomni : MonoBehaviour {
 
@@ -18,6 +21,8 @@ public class TPomni : MonoBehaviour {
 	public const int COLOR_YELLOW = 5;
 
 	public GameObject Win;
+	public Text countDownText;
+	public static int countDown = 30;
 
 	void Start () {
 	
@@ -44,6 +49,8 @@ public class TPomni : MonoBehaviour {
 			Win.SetActive(true);
 
 		}
+
+		countDownText.text = (int)(countDown - Time.timeSinceLevelLoad) + "s";
 
 	}
 }
