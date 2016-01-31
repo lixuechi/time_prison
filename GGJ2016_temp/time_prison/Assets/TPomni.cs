@@ -52,5 +52,9 @@ public class TPomni : MonoBehaviour {
 
 		countDownText.text = (int)(countDown - Time.timeSinceLevelLoad) + "s";
 
+		if(countDownText.text.Equals("0s"))
+		{
+			Application.LoadLevel("end_replay");
+		}
 	}
 }
