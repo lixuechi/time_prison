@@ -26,7 +26,7 @@ public class TPmouseControl : TPomni {
 			{
 				string colliderTag = hit.collider.gameObject.tag;
 				Debug.Log("hit tag == " + colliderTag);
-				if(colliderTag == "puzzle")
+				//if(colliderTag == "puzzle")
 				{
 					MeshRenderer pigMR = hit.collider.gameObject.GetComponent<MeshRenderer>();
 					Debug.Log("puzzle hit");
@@ -56,6 +56,29 @@ public class TPmouseControl : TPomni {
 					{
 						pigMR.materials = yellowMR.materials;
 					}
+
+					if(colliderTag == "puzzle1")
+					{
+						cube1 = o_currColor;
+					}
+					else if(colliderTag == "puzzle2")
+					{
+						cube2 = o_currColor;
+					}
+					else if(colliderTag == "puzzle3")
+					{
+						cube3 = o_currColor;
+					}
+					else if(colliderTag == "puzzle4")
+					{
+						cube4 = o_currColor;
+					}
+					else if(colliderTag == "puzzle5")
+					{
+						cube5 = o_currColor;
+					}
+
+					Debug.Log(colliderTag + " " + o_currColor);
 				}
 
 			} // end Raycast
