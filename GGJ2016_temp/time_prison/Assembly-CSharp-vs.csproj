@@ -51,6 +51,7 @@
      <Compile Include="Assets\TPbuttonControl.cs" />
      <Compile Include="Assets\TPmouseControl.cs" />
      <Compile Include="Assets\TPomni.cs" />
+     <Compile Include="Assets\TPsplashScreenControl.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>/Users/xuechili/GitHub/time_prison/GGJ2016_temp/time_prison/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
