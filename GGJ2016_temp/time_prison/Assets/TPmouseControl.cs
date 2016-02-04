@@ -59,23 +59,23 @@ public class TPmouseControl : TPomni {
 
 					if(colliderTag == "puzzle1")
 					{
-						cube1 = o_currColor;
+						colorOfPiece1 = o_currColor;
 					}
 					else if(colliderTag == "puzzle2")
 					{
-						cube2 = o_currColor;
+						colorOfPiece2 = o_currColor;
 					}
 					else if(colliderTag == "puzzle3")
 					{
-						cube3 = o_currColor;
+						colorOfPiece3 = o_currColor;
 					}
 					else if(colliderTag == "puzzle4")
 					{
-						cube4 = o_currColor;
+						colorOfPiece4 = o_currColor;
 					}
 					else if(colliderTag == "puzzle5")
 					{
-						cube5 = o_currColor;
+						colorOfPiece5 = o_currColor;
 					}
 
 					Debug.Log(colliderTag + " " + o_currColor);
