@@ -22,7 +22,7 @@ public class TPomni : MonoBehaviour {
 
 	public GameObject Win;
 	public Text countDownText;
-	public static int countDown = 30;
+	public static float countDown = 30;
 
 	void Start () {
 	
@@ -50,7 +50,10 @@ public class TPomni : MonoBehaviour {
 
 		}
 
-		countDownText.text = (int)(countDown - Time.timeSinceLevelLoad) + "s";
+		//countDownText.text = (int)(countDown - Time.timeSinceLevelLoad) + "s";
+		countDown -= Time.deltaTime;
+		Debug.Log ("countdown == " + (int)countDown);
+		countDownText.text = (int)countDown + "s";
 
 		if(countDownText.text.Equals("0s"))
 		{
