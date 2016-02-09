@@ -1,13 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js">
     <Files>
-      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" Line="52" Column="6" />
-      <File FileName="Assets/TPomni.cs" Line="1" Column="1" />
-      <File FileName="Assets/TPbuttonControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/TPmouseControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/characterControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/gameOverButtonControl.cs" Line="1" Column="1" />
+      <File FileName="Assets/FirstPerspectiveCustomControl.cs" Line="16" Column="5" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/MouseLook.cs" Line="49" Column="73" />
+      <File FileName="Assets/WSADCustomLook.cs" Line="15" Column="28" />
+      <File FileName="Assets/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" Line="126" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
